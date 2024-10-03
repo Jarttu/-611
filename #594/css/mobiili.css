@@ -1,0 +1,46 @@
+@media only screen and (max-width: 800px){
+    :root{
+        --tausta:#181818;
+        --boxcol:#292929;
+        --details:#32cd32;
+        --white:#ffffff;
+    }
+    .yoikea{
+        float: none;
+        margin: none;
+    }
+    .yvasen{
+        float: none;
+        margin: none;
+    }
+    .keski{
+        margin: 0;
+    }
+    .ymargin{
+        margin: 10px;
+    }
+    .bmargin{
+        margin-bottom: 10px;
+    }
+    section{
+        margin: 0;
+        width: fit-content;
+    }
+    .otsikko{
+        margin-left:0;
+    }
+    .sisällys{
+        padding-top: 250px;
+    }
+    .tietoja{
+        margin-right: auto;
+        
+    }
+    .menu{
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: fit-content;
+        border-bottom: solid 3px var(--details); 
+    }
+}

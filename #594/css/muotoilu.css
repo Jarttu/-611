@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --tausta:#181818;
+    --boxcol:#292929;
+    --details:#32cd32;
+    --white:#ffffff;
+}
+/*yleisiä*/
+.ykeskitys {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.yvasen{
+    float: left;
+}
+.yoikea{
+    float:inline-end;
+    margin-right: 1.5%;
+}
+
+.bord{
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.mirbord{
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.large{
+    font-size: x-large;
+}
+.paksu{
+    font-weight: bold;
+}
+/*runko*/
+body{
+    margin: 0;
+    background-color: var(--tausta);
+}
+section{
+    background-color: var(--boxcol);
+    color: var(--white);
+    margin-left: 18%;
+    padding: 1px 16px;
+    height: fit-content;
+    width: 33.33%;
+    border: solid 3px var(--details);
+    margin-bottom: 15px;
+}
+.t2{
+    margin-left: 10px;
+}
+/*body luokat*/
+.spolink a{
+    color: var(--details);
+    
+}
+.logo{
+    padding:10px;
+}
+.otsikko{
+    margin-left: 18%;
+    width: fit-content;
+    color: var(--white);
+    padding: 1px 16px;
+    border: solid 3px var(--details);
+    margin-bottom: 10px;
+    background-color: var(--boxcol);
+    
+}
+.keski{
+    margin:auto;
+    width: fit-content;
+    
+}
+.palikka{
+    display: inline-block;
+    border: solid 3px var(--details);
+    padding:16px;
+}
+.tietoja{
+    width: fit-content;
+}
+/*kuvat*/
+.kasipaino{
+    width: 50%;
+    padding-bottom: 5px;
+}
+.minari{
+    width: 60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+.esedu{
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+.wdesign{
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+/*menuhomma*/
+.menu{
+    border-right:solid 3px var(--details);
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 15%;
+    padding: 5px;
+    overflow:auto;
+    background-color: var(--boxcol);
+}
+.menu-content a{
+    display: block;
+    color: var(--white);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.menu-content a.active{
+    background-color: var(--details);
+    color: var(--tausta);
+}
+.menu-content a:hover:not(.active){
+    background-color: rgb(128 128 128);
+    color: var(--white);
+}
+.some{
+    font-size: 30px;
+    margin-top: 0.5em;
+}
+.some li{
+    display: inline;
+}
+.some a:hover{
+    opacity: 0.3;
+}
+/*font awesome*/
+.fa-spotify{
+    color:#1db954;
+}
+.fa-steam{
+    background: -webkit-linear-gradient(#000000 45%,#00adee 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-github{
+    color: var(--white);
+}
+.fa-snapchat{
+    color: #fffc00;
+}
+.fa-discord{
+    color: #7289da;
+}
